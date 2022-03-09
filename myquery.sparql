@@ -1,10 +1,7 @@
 #+ https://query.wikidata.org
 
-SELECT 
-  ?programmer 
-  ?programmerLabel
+SELECT ?area
 WHERE {
-  ?programmer wdt:P106 wd:Q5482740 .
-  ?programmer rdfs:label ?programmerLabel .  
-  FILTER (LANGMATCHES(LANG(?programmerLabel), "zh-CN"))
+   wd:Q46913  wdt:P150 ?area .
 }
+
