@@ -1,4 +1,5 @@
 #+ https://query.wikidata.org
+
 SELECT 
   ?programmer 
   ?programmerLabel
