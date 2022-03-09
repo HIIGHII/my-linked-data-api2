@@ -1,5 +1,8 @@
 #+ endpoint: http://dbpedia.org/sparql
 
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
 SELECT ?area
 WHERE {
    wd:Q46913  wdt:P150 ?area .
