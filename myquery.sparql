@@ -1,4 +1,4 @@
-#+ https://query.wikidata.org
+#+ endpoint: http://dbpedia.org/sparql
 
 SELECT ?area
 WHERE {
